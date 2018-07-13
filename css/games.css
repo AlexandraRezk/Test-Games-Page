@@ -1,0 +1,70 @@
+/*Backgrounds*/
+body{
+    background: url(../images/backgrounds/gameroombackgroundiPad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#game-thumbs{
+    width: 71vw;
+    height: 56vw;
+    margin: 15vw auto;
+    background-image: url(../images/color1f1a30transparent88.png);
+    background-size: 71vw 56vw;
+}
+
+/*Thumbnails*/
+.thumbnails{
+    position: relative;
+    cursor: pointer;
+    width: 30vw;
+    float: left;
+    margin: 2.75vw;
+}
+
+.thumb {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #7BCBA4;
+}
+
+.thumbnails:hover .overlay {
+  opacity: .5;
+}
+
+@media(min-width:1000px){
+body{
+    background: url(../images/backgrounds/gameroombackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+    
+#game-thumbs{
+    width: 50vw;
+    height: 35vw;
+    margin: 4vw auto;
+    background-image: url(../images/color1f1a30transparent88.png);
+    background-size: 50vw 35vw;
+}
+    
+.thumbnails{
+    width: 10vw;
+    margin: 2vw 2.75vw;
+}
+    
+}
