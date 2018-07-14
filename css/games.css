@@ -4,6 +4,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 #game-thumbs{
@@ -12,6 +13,9 @@ body{
     margin: 15vw auto;
     background-image: url(../images/color1f1a30transparent88.png);
     background-size: 71vw 56vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 /*Thumbnails*/
@@ -19,8 +23,7 @@ body{
     position: relative;
     cursor: pointer;
     width: 30vw;
-    float: left;
-    margin: 2.75vw;
+    margin: 2vw;
 }
 
 .thumb {
@@ -56,15 +59,14 @@ body{
     
 #game-thumbs{
     width: 50vw;
-    height: 35vw;
+    height: 40vw;
     margin: 4vw auto;
     background-image: url(../images/color1f1a30transparent88.png);
-    background-size: 50vw 35vw;
+    background-size: 50vw 40vw;
 }
     
 .thumbnails{
-    width: 10vw;
-    margin: 2vw 2.75vw;
+    width: 20vw;
 }
     
 }
