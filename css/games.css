@@ -58,15 +58,17 @@ body{
 }
     
 #game-thumbs{
-    width: 50vw;
-    height: 40vw;
+    width: 45vw;
+    height: 25vw;
     margin: 4vw auto;
     background-image: url(../images/color1f1a30transparent88.png);
-    background-size: 50vw 40vw;
+    background-size: 45vw 25vw;
+    justify-content: flex-start;
 }
     
 .thumbnails{
-    width: 20vw;
+    width: 12vw;
+     margin: 1.5vw;
 }
     
 }
