@@ -9,21 +9,22 @@ body{
 
 #game-thumbs{
     width: 71vw;
-    height: 56vw;
-    margin: 15vw auto;
+    height: 67vh;
+    margin: 10vh auto;
     background-image: url(../images/color1f1a30transparent88.png);
-    background-size: 71vw 56vw;
+    background-size: 71vw 67vh;
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content:space-around;
 }
 
 /*Thumbnails*/
 .thumbnails{
     position: relative;
     cursor: pointer;
-    width: 30vw;
-    margin: 2vw;
+    width: 25vw;
+    height: auto;
+    margin-top: 4.5vh;
 }
 
 .thumb {
@@ -60,7 +61,7 @@ body{
 #game-thumbs{
     width: 45vw;
     height: 25vw;
-    margin: 4vw auto;
+    margin: 15vh auto;
     background-image: url(../images/color1f1a30transparent88.png);
     background-size: 45vw 25vw;
     justify-content: flex-start;
